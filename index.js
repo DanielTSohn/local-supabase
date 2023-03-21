@@ -13,7 +13,7 @@ async function getBooks()
 for(let book of Books)
   {
     let bookList = document.getElementById('books');
-    bookList.innerHTML += `<tr><th scope = "row">${book.title}</th><td>${book.author}</td><td>${book.ISBN}</td></tr>`;
+    bookList.innerHTML += `<tr><th scope = "row">${book.title}</th><td>${book.author}</td><td>${book.ISBN}</td><td>${book.description}</td></tr>`;
   }
 }
 

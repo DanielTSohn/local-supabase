@@ -1,1 +1,50 @@
 /* Add screen styles below */
+body
+{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: bisque;
+}
+
+h1
+{
+    text-align: center;
+    font-size: 10vmin;
+}
+
+caption
+{
+    color:blue;
+    font-size: 5vmin;
+}
+
+table
+{
+    color: brown;
+    font-size: x-large;
+    text-align: center;
+    border: 7px green solid;
+    border-collapse: collapse;
+}
+
+th
+{
+    color: darkblue;
+    font-size: xx-large;
+    border: 4px black solid;
+    font-size: 4vmin;
+}
+
+tbody th
+{
+    color: black;
+    font-size: xx-large;
+    text-align: right;
+    border: 4px darkgreen solid;
+    font-size: 3.5vmin;
+}
+
+td
+{
+    border: 2px lightgreen solid;
+    font-size: 3vmin;
+}
